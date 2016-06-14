@@ -1,0 +1,119 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Abinaya Balakrishnan
+Updated: june 2016
+
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   .navbar-brand {
+       height: 80px;
+       padding: 0;
+       width: 80px;
+   }
+#head{text-align:center;padding:10px 0 0;}
+.collapse{display:block;}
+.navbar ul li a{font-size:14px;line-height:16px;text-decoration:none;color:#5C5654;}
+.navbar ul#navlinks{ margin: 25px 2% 0 0;}
+.clear{clear:both;}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+img{width:100%;}
+body{
+
+  font-family: 'Varela Round', sans-serif;
+  -webkit-font-smoothing: antialiased;
+text-rendering: optimizelegibility;
+background:#ffffff;
+}
+.pl1 a{display:block;width:100%;}
+#my_carousel h3{color:#000;font-size:28px;}
+#my_carousel p{color:#000;font-size:18px;}
+#Buynow .col-4{padding:0;}
+h1{text-align:center;}
+h1,h2,h3,h4,h5,h6{font-family: 'Varela Round', sans-serif;}
+h2{text-align:center;margin:30px 0;}
+#my_carousel{margin-top:100px;}
+#my_carousel .item{height:500px;}
+.modal-content{padding-bottom:10px;}
+footer {background:#757d75;padding:15px 0 5px 0;margin:10px 0 0;}
+footer ul{padding-left:0;}
+footer ul li {list-style:none;display:inline;padding:0 1%;}
+footer ul li a{color:#000000;}
+#socialLink span{display:inline-block;width:8%;padding:0 1%;}
+p.footer_para{text-align:right;color:#000000;margin-bottom:0;}
+#Tab{padding-bottom:20px;}
+.fan{width:60%;}
+.panel{margin-bottom:0;}
+.copyRight{padding-left:19px;}
+.copyRight p{color:#000000;padding:0;}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+#head {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width:115px;
+}
+
+#my_carousel .item { height: 350px;}
+#my_carousel { margin-top: 82px;}
+#socialLink span { width: 10%;}
+#my_carousel p { color: #000;font-size: 12px;margin-bottom:0;}
+#my_carousel h3 { color: #000;font-size: 22px; font-weight: bold; margin: 0;}
+footer ul li {display:block;}
+p.footer_para {color: #000000;margin-top: 55px;}
+.collapse{display:none;}
+.copyRight{text-align:center;}
+#Buynow .col-4 { padding: 0 3%;}
+.fan{width:100%;}
+#my_carousel { margin: 82px auto 0; width: 93%;}
+}
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+.collapse{display:none;}
+#my_carousel .item {height: 187px;}
+#socialLink span {width: 15%;}
+p.footer_para {margin-top:0;}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
